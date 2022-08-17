@@ -17,6 +17,7 @@ class Program
         //(new Fdelegate()).fdelegate();
         //(new FThread()).testthread();
         //(new FThreadPool()).testthreads();
-        (new FThreadPoolWorker()).testthreadPW();
+        //(new FThreadPoolWorker()).testthreadPW();
+        (new FThreadPoolWorker2()).testthreadPW();
     }
 }
