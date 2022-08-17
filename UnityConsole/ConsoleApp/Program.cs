@@ -16,6 +16,7 @@ class Program
         Console.WriteLine("Test start!");
         //(new Fdelegate()).fdelegate();
         //(new FThread()).testthread();
-        (new FThreadPool()).testthreads();
+        //(new FThreadPool()).testthreads();
+        (new FThreadPoolWorker()).testthreadPW();
     }
 }
