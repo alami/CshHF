@@ -18,6 +18,7 @@ class Program
         //(new FThread()).testthread();
         //(new FThreadPool()).testthreads();
         //(new FThreadPoolWorker()).testthreadPW();
-        (new FThreadPoolWorker2()).testthreadPW();
+        //(new FThreadPoolWorker2()).testthreadPW();
+        (new F15AsyncProg()).F15AsyncProgTest();
     }
 }

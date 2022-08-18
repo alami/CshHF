@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{5F5ACD68-9C2C-4C14-8398-71DD6EA37A0A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{5F5ACD68-9C2C-4C14-8398-71DD6EA37A0A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatchGame", "MatchGame\MatchGame.csproj", "{019BAA81-5735-4FE0-B0BB-7EE90BC4788B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatchGame", "MatchGame\MatchGame.csproj", "{019BAA81-5735-4FE0-B0BB-7EE90BC4788B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExperimentWithControls.", "ExperimentWithControls\ExperimentWithControls..csproj", "{09FC5073-4186-4F05-B241-FB3467BCC36E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExperimentWithControls.", "ExperimentWithControls\ExperimentWithControls..csproj", "{09FC5073-4186-4F05-B241-FB3467BCC36E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clicker", "Clicker\Clicker.csproj", "{468F2BF8-46C3-4769-96CB-8EDC5789130F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{09FC5073-4186-4F05-B241-FB3467BCC36E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09FC5073-4186-4F05-B241-FB3467BCC36E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09FC5073-4186-4F05-B241-FB3467BCC36E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{468F2BF8-46C3-4769-96CB-8EDC5789130F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{468F2BF8-46C3-4769-96CB-8EDC5789130F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{468F2BF8-46C3-4769-96CB-8EDC5789130F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{468F2BF8-46C3-4769-96CB-8EDC5789130F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

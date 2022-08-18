@@ -1,0 +1,20 @@
+﻿<Window x:Class="Clicker.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Clicker"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="CounterValue" Content="Counter Value" HorizontalAlignment="Left" Margin="105,60,0,0" VerticalAlignment="Top"/>
+        <Label Content="Download Result" HorizontalAlignment="Left" Margin="489,60,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.494,-0.547"/>
+        <Label Content="Exception" HorizontalAlignment="Left" Margin="352,319,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="BtnClick" Content="ClickMe" HorizontalAlignment="Left" Margin="98,272,0,0" VerticalAlignment="Top" Height="52" Width="139" Click="BtnClick_Click"/>
+        <TextBox x:Name="TxtDownload" HorizontalAlignment="Left" Margin="489,126,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="215" Height="91"/>
+        <Button x:Name="BtnDownload" Content="Download" HorizontalAlignment="Left" Margin="554,285,0,0" VerticalAlignment="Top" Height="46" Width="121" Click="BtnDownload_Click"/>
+        <TextBox x:Name="TxtClick" HorizontalAlignment="Left" Margin="98,126,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="180" Height="91"/>
+        <TextBox x:Name="TxtException" HorizontalAlignment="Left" Height="39" Margin="312,345,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="203"/>
+
+    </Grid>
+</Window>
