@@ -15,14 +15,16 @@ class Program
     {
         Console.WriteLine("Test start!");
         //(new Fdelegate()).fdelegate();
+        //----------------------------Async ch 1 
         //(new FThread()).testthread();
         //(new FThreadPool()).testthreads();
         //(new FThreadPoolWorker()).testthreadPW();
         //(new FThreadPoolWorker2()).testthreadPW();
         //(new F15AsyncProg()).F15AsyncProgTest();
 
-        //----------------------------
-        (new F21ThreadOutput()).test();
+        //----------------------------Async ch 2 
+        //(new F21ThreadOutput()).test();  // 4 vars of Task running without Result
+        (new F22ReturnResults()).test();    // 3 vars ...wt Result
 
     }
 }
