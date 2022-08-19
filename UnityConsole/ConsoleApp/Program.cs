@@ -24,7 +24,7 @@ class Program
 
         //----------------------------Async ch 2 
         //(new F21ThreadOutput()).test();  // 4 vars of Task running without Result
-        (new F22ReturnResults()).test();    // 3 vars ...wt Result
-
+        //(new F22ReturnResults()).test();    // 3 vars ...wt Result
+        (new F23TaskOptions()).test();    // влиять на задачи чрз TASK CREATEION OPTIONS 
     }
 }
