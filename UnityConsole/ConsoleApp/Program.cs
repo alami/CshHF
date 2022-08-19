@@ -28,6 +28,7 @@ class Program
         //(new F23TaskOptions()).test();    // влиять на задачи чрз TASK CREATEION OPTIONS 
         //(new F24TaskStatus()).test();
         //(new F25TaskWait()).test();
-        (new F26Closure()).test();
+        //(new F26Closure()).test();
+        (new F27ContinueWith()).test();
     }
 }
