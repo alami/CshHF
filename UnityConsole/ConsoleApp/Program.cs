@@ -11,6 +11,7 @@ class Program
             yield return i;
         }
     }
+   
     static void Main(string[] argv)
     {
         //(new Fdelegate()).fdelegate();
@@ -26,6 +27,7 @@ class Program
         //(new F22ReturnResults()).test();    // 3 vars ...wt Result
         //(new F23TaskOptions()).test();    // влиять на задачи чрз TASK CREATEION OPTIONS 
         //(new F24TaskStatus()).test();
-        (new F25TaskWait()).test();
+        //(new F25TaskWait()).test();
+        (new F26Closure()).test();
     }
 }
