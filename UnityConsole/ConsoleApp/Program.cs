@@ -29,6 +29,7 @@ class Program
         //(new F24TaskStatus()).test();
         //(new F25TaskWait()).test();
         //(new F26Closure()).test();
-        (new F27ContinueWith()).test();
+        //(new F27ContinueWith()).test();
+        (new F28ContinueWith()).test();
     }
 }
