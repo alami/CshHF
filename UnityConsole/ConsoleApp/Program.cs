@@ -37,6 +37,7 @@ class Program
         //(new F29FactoryTask()).test();
 
         //(new F2AValueTask()).test();
-        (new F2BValueTask()).test();
+        //(new F2BValueTask()).test();
+        (new F2CValueTask()).test();
     }
 }
