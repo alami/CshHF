@@ -20,6 +20,7 @@ class Program
         //(new FThreadPool()).testthreads();
         //(new FThreadPoolWorker()).testthreadPW();
         //(new FThreadPoolWorker2()).testthreadPW();
+
         //(new F15AsyncProg()).F15AsyncProgTest();
 
         //----------------------------Async ch 2 
@@ -38,6 +39,8 @@ class Program
 
         //(new F2AValueTask()).test();
         //(new F2BValueTask()).test();
-        (new F2CValueTask()).test();
+        //(new F2CValueTask()).test();
+
+        (new F2DAsyncProg()).F15AsyncProgTest();
     }
 }
