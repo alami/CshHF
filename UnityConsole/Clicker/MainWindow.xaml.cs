@@ -39,7 +39,8 @@ namespace Clicker
         {
             try
             {
-                TxtDownload.Text += DownloadString("http://microsoft.com");
+                TxtDownload.Text += //"http://microsoft.com";//
+                                    DownloadString("http://microsoft.com");
             }
             catch (Exception ex)
             {
@@ -49,7 +50,7 @@ namespace Clicker
 
         private string DownloadString(string v)
         {
-            Thread.Sleep(5000);
+            //Thread.Sleep(5000);
             HttpClient httpClient = new HttpClient();
             return httpClient.GetStringAsync(v).Result;
         }
