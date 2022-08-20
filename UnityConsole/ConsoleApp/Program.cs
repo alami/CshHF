@@ -29,10 +29,14 @@ class Program
         //(new F24TaskStatus()).test();
         //(new F25TaskWait()).test();
         //(new F26Closure()).test();
+
         //(new F27ContinueWith()).test();
         //(new F28ContinueWith()).test();
         //(new F29ContinueWithChain()).test();
+
         //(new F29FactoryTask()).test();
-        (new F2AValueTask()).test();
+
+        //(new F2AValueTask()).test();
+        (new F2BValueTask()).test();
     }
 }
