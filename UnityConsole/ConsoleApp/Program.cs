@@ -32,6 +32,7 @@ class Program
         //(new F27ContinueWith()).test();
         //(new F28ContinueWith()).test();
         //(new F29ContinueWithChain()).test();
-        (new F29FactoryTask()).test();
+        //(new F29FactoryTask()).test();
+        (new F2AValueTask()).test();
     }
 }
