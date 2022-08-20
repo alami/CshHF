@@ -30,6 +30,7 @@ class Program
         //(new F25TaskWait()).test();
         //(new F26Closure()).test();
         //(new F27ContinueWith()).test();
-        (new F28ContinueWith()).test();
+        //(new F28ContinueWith()).test();
+        (new F29ContinueWithChain()).test();
     }
 }
