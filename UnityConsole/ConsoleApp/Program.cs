@@ -44,6 +44,7 @@ class Program
         //(new F2DAsyncProg()).F15AsyncProgTest();
 
         //(new F301Program()).test();
-        (new F302StandartTaskScheduler()).test();
+        //(new F302StandartTaskScheduler()).test();
+        (new F305ProgramPriorityTS()).test();
     }
 }
