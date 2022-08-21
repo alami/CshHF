@@ -17,7 +17,8 @@ namespace ConsoleApp
 
             TaskScheduler scheduler = null;
             //scheduler = TaskScheduler.Default;
-            scheduler = new F303ThreadTaskScheduler();
+            scheduler = new //F303ThreadTaskScheduler();
+                            F304LimitedConcurrencyTaskScheduler(4);
 
             Console.WriteLine($"TaskScheduler - {scheduler.GetType()}");
 
