@@ -16,12 +16,12 @@ namespace ConsoleApp
                 {
                     Thread.Sleep(1000);
                     Console.WriteLine("Nested 1 completed");
-                }).Start();
+                }, TaskCreationOptions.AttachedToParent).Start();
                 new Task(() =>
                 {
                     Thread.Sleep(2000);
                     Console.WriteLine("Nested 2 completed");
-                }).Start();
+                }, TaskCreationOptions.AttachedToParent).Start();
 
                 Thread.Sleep(200);
             });
