@@ -9,7 +9,7 @@
     <Grid>
         <TextBox x:Name="txtContinuations" HorizontalAlignment="Left" Margin="71,26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="240" Height="355"/>
         <TextBox x:Name="txtThreadPool" HorizontalAlignment="Left" Margin="519,26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="249" Height="342"/>
-        <Button x:Name="btnStart" Content="Запуск" HorizontalAlignment="Left" Margin="378,204,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnStart" Content="Запуск" HorizontalAlignment="Left" Margin="378,204,0,0" VerticalAlignment="Top" Click="btnStart_Click"/>
         <Label x:Name="lblThreadId" Content="UI Thread Id" HorizontalAlignment="Center" Margin="0,153,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Window>
