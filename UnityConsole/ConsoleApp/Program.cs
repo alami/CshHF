@@ -45,6 +45,8 @@ class Program
 
         //(new F301Program()).test();
         //(new F302StandartTaskScheduler()).test();
-        (new F305ProgramPriorityTS()).test();
+        //(new F305ProgramPriorityTS()).test();
+        
+        F310NestedTasks.test();
     }
 }
