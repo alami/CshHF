@@ -59,7 +59,8 @@ namespace F308SynchronizationContextTaskScheduler
         }
         private void Worker()
         {
-            TaskScheduler scheduler = new SynchronizationContextTaskScheduler();
+            TaskScheduler scheduler = //new SynchronizationContextTaskScheduler();
+                                TaskScheduler.FromCurrentSynchronizationContext();
             Task<int>[] tasks = new Task<int>[20];
 
             new Task(() =>
