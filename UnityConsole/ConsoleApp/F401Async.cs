@@ -28,7 +28,10 @@ namespace ConsoleApp
             Console.WriteLine($"Method WriteCharAsync/# {Task.CurrentId}" +
                         $" начал работу  в потоке {Thread.CurrentThread.ManagedThreadId}" +
                         $" из пула потоков - {Thread.CurrentThread.IsThreadPoolThread}");
-            await Task.Run(()=> WriteChar(symbol));
+            Task asyncResult = Task.Run(()=> WriteChar(symbol));
+            Thread.Sleep(10000);
+            await asyncResult;
+
             Console.WriteLine($"\nMethod WriteCharAsync/# {Task.CurrentId}" +
                         $" закончил работу  в потоке {Thread.CurrentThread.ManagedThreadId}" +
                         $" из пула потоков - {Thread.CurrentThread.IsThreadPoolThread}");
