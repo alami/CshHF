@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clicker", "Clicker\Clicker.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F308SynchronizationContextTaskScheduler", "F308SynchronizationContextTaskScheduler\F308SynchronizationContextTaskScheduler.csproj", "{C9C89176-9E08-4506-8761-300D9E18E5C6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppAsync", "ConsoleAppAsync\ConsoleAppAsync.csproj", "{97D42D39-A9F7-45D4-9038-3CC424AE0604}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{C9C89176-9E08-4506-8761-300D9E18E5C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9C89176-9E08-4506-8761-300D9E18E5C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9C89176-9E08-4506-8761-300D9E18E5C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97D42D39-A9F7-45D4-9038-3CC424AE0604}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97D42D39-A9F7-45D4-9038-3CC424AE0604}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97D42D39-A9F7-45D4-9038-3CC424AE0604}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97D42D39-A9F7-45D4-9038-3CC424AE0604}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
