@@ -13,9 +13,7 @@ namespace ConsoleApp
             Console.WriteLine($"Method Main/* {Task.CurrentId}" +
                         $" начал работу  в потоке {Thread.CurrentThread.ManagedThreadId}" +
                         $" из пула потоков - {Thread.CurrentThread.IsThreadPoolThread}");
-            //WriteCharAsync('#');//асинх
-            //WriteCharAsync('#').GetAwaiter().GetResult();//асинх
-            WriteCharAsync('#').DisableAsyncWarning();
+            WriteCharAsync('#');//асинх
             WriteChar('*');    //синх
             Console.WriteLine($"\nMethod Main/* {Task.CurrentId}" +
                         $" закончил работу  в потоке {Thread.CurrentThread.ManagedThreadId}" +
@@ -28,10 +26,7 @@ namespace ConsoleApp
             Console.WriteLine($"Method WriteCharAsync/# {Task.CurrentId}" +
                         $" начал работу  в потоке {Thread.CurrentThread.ManagedThreadId}" +
                         $" из пула потоков - {Thread.CurrentThread.IsThreadPoolThread}");
-            Task asyncResult = Task.Run(()=> WriteChar(symbol));
-            Thread.Sleep(10000);
-            await asyncResult;
-
+            await Task.Run(()=> WriteChar(symbol));
             Console.WriteLine($"\nMethod WriteCharAsync/# {Task.CurrentId}" +
                         $" закончил работу  в потоке {Thread.CurrentThread.ManagedThreadId}" +
                         $" из пула потоков - {Thread.CurrentThread.IsThreadPoolThread}");
@@ -48,10 +43,6 @@ namespace ConsoleApp
                 Console.Write(symbol);
                 Thread.Sleep(100);
             }
-        }        
-    }
-    internal static class MyAsyncExtention
-    {
-        public static void DisableAsyncWarning(this Task t) { }
+        }
     }
 }
