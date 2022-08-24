@@ -14,6 +14,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Threading;
 
 namespace Clicker
 {
@@ -28,6 +29,7 @@ namespace Clicker
         {
             InitializeComponent();
             counter = 0;
+            DispatcherSynchronizationContext 
         }
 
         private void BtnClick_Click(object sender, RoutedEventArgs e)
@@ -35,9 +37,11 @@ namespace Clicker
             TxtClick.Text = Convert.ToString(++counter);
         }
 
-        private void BtnDownload_Click(object sender, RoutedEventArgs e)
+        private async void BtnDownload_Click(object sender, RoutedEventArgs e)
         {
-            try
+            var result = await Task.Run(() => DownloadString("http://microsoft.com"));
+            TxtDownload.Text += result;
+            /*try
             {
                 TxtDownload.Text += //"http://microsoft.com";//
                                     DownloadString("http://microsoft.com");
@@ -45,7 +49,7 @@ namespace Clicker
             catch (Exception ex)
             {
                 TxtException.Text += ex.Message;
-            }
+            }*/
         }
 
         private string DownloadString(string v)
