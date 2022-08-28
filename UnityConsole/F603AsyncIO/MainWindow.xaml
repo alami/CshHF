@@ -1,0 +1,16 @@
+﻿<Window x:Class="F603AsyncIO.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:F603AsyncIO"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="txtIOCP" HorizontalAlignment="Left" Height="108" Margin="36,288,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="329"/>
+        <TextBox x:Name="txtOutput" HorizontalAlignment="Left" Height="375" Margin="402,26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="381"/>
+        <Button x:Name="BtnRead" Content="Read" HorizontalAlignment="Left" Height="55" Margin="180,58,0,0" VerticalAlignment="Top" Width="162" Click="BtnRead_Click"/>
+        <Button x:Name="BtnWrite" Content="Write" HorizontalAlignment="Left" Height="58" Margin="179,153,0,0" VerticalAlignment="Top" Width="160" Click="BtnWrite_Click"/>
+        <ProgressBar HorizontalAlignment="Center" Height="27" Margin="0,409,0,0" VerticalAlignment="Top" Width="802"/>
+    </Grid>
+</Window>
