@@ -1,0 +1,17 @@
+﻿<Window x:Class="F608AsyncDelay.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:F608AsyncDelay"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="txtClick" HorizontalAlignment="Left" Margin="52,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="299" Height="203"/>
+        <TextBox x:Name="txtDealay" HorizontalAlignment="Left" Margin="430,51,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="299" Height="203"/>
+        <Button x:Name="BtnInc" Content="Increment" HorizontalAlignment="Left" Margin="153,318,0,0" VerticalAlignment="Top" Height="39" Width="135" Click="BtnInc_Click"/>
+        <Button x:Name="BtnDelay" Content="Delay" HorizontalAlignment="Left" Margin="483,312,0,0" VerticalAlignment="Top" Height="44" Width="145" Click="BtnDelay_Click"/>
+        <ProgressBar HorizontalAlignment="Center" Height="37" Margin="0,397,0,0" VerticalAlignment="Top" Width="801"/>
+
+    </Grid>
+</Window>
