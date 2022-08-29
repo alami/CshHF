@@ -33,6 +33,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "F604AsyncIO", "F604AsyncIO\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F606TAP", "F606TAP\F606TAP.csproj", "{83DAA432-3A62-461A-96F1-73B9C1E77757}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F607AsyncPattern", "F607AsyncPattern\F607AsyncPattern.csproj", "{30CAB1C3-ADF8-4B70-96BF-529DA3E6244A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{83DAA432-3A62-461A-96F1-73B9C1E77757}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83DAA432-3A62-461A-96F1-73B9C1E77757}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83DAA432-3A62-461A-96F1-73B9C1E77757}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30CAB1C3-ADF8-4B70-96BF-529DA3E6244A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30CAB1C3-ADF8-4B70-96BF-529DA3E6244A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30CAB1C3-ADF8-4B70-96BF-529DA3E6244A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30CAB1C3-ADF8-4B70-96BF-529DA3E6244A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
