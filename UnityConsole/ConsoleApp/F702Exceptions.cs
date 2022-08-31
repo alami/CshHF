@@ -12,9 +12,10 @@ namespace ConsoleApp
         public static void test()
         {
             Task<int> task = Task.Run(DoWork);
-
+            /* */  
             try
             {
+                //task.Wait();
                 Console.WriteLine(task.Result);
                 Console.WriteLine($"Код метода Майн продолжил выполнение без ошибок...");
             }
@@ -31,14 +32,24 @@ namespace ConsoleApp
                     Console.WriteLine($"     и его сообщение - [{item.Message}]");
                 }
             }
+            /*  */
             Console.WriteLine(new string('-', 80));
             Console.WriteLine($"Press any key..");
             Console.ReadKey();
         }
         private static int DoWork()
         {
-            Console.WriteLine($"Код метода DoWork до ошибки");
-            throw new Exception("Ошибка в методе DoWork");
+            //try
+            //{
+                Console.WriteLine($"Код метода DoWork до ошибки");
+                throw new Exception("Ошибка в методе DoWork");
+            /*}
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Код метода DoWork после catch");
+            }*/
+            Console.WriteLine($"Код метода DoWork после ошибки");
+            return -1;
         }
     }
 }
