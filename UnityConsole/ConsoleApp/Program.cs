@@ -49,8 +49,9 @@ class Program
 
         //F310NestedTasks.test();
 
-
         //F401Async.test();
-        F403AsyncReturn.test();
+        //F403AsyncReturn.test();
+
+        F701Exceptions.test();
     }
 }
