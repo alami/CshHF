@@ -54,6 +54,7 @@ class Program
 
         //F701Exceptions.test();
         //F702Exceptions.test();
-        F703ExceptionsNested.test();
+        //F703ExceptionsNested.test();
+        F704ExceptionsWithoutParent.test();
     }
 }
