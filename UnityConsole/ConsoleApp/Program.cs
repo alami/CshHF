@@ -56,6 +56,8 @@ class Program
         //F702Exceptions.test();
         //F703ExceptionsNested.test();
         //F704ExceptionsWithoutParent.test();
-        F705Exceptions.test();
+        //F705Exceptions.test();
+
+        F721CancellationToken.test();
     }
 }
