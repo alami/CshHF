@@ -37,7 +37,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F607AsyncPattern", "F607Asy
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "F608AsyncDelay", "F608AsyncDelay\F608AsyncDelay.csproj", "{A75BF32C-B0BC-4DC5-A8C8-EB4833E35B41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F609AsyncWaitAll", "F609AsyncWaitAll\F609AsyncWaitAll.csproj", "{2287440E-0476-4D2F-8E5C-25ED7064467E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "F609AsyncWaitAll", "F609AsyncWaitAll\F609AsyncWaitAll.csproj", "{2287440E-0476-4D2F-8E5C-25ED7064467E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F705Exceptions", "F705Exceptions\F705Exceptions.csproj", "{323F37CE-F66A-45A4-B145-1791F8C2AD1B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{2287440E-0476-4D2F-8E5C-25ED7064467E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2287440E-0476-4D2F-8E5C-25ED7064467E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2287440E-0476-4D2F-8E5C-25ED7064467E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{323F37CE-F66A-45A4-B145-1791F8C2AD1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{323F37CE-F66A-45A4-B145-1791F8C2AD1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{323F37CE-F66A-45A4-B145-1791F8C2AD1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{323F37CE-F66A-45A4-B145-1791F8C2AD1B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
