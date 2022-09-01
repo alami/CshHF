@@ -53,6 +53,7 @@ class Program
         //F403AsyncReturn.test();
 
         //F701Exceptions.test();
-        F702Exceptions.test();
+        //F702Exceptions.test();
+        F703ExceptionsNested.test();
     }
 }
