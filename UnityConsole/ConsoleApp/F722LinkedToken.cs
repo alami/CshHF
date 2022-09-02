@@ -51,7 +51,7 @@ namespace ConsoleApp
             Thread.Sleep(1000);
             int sum = 0;
             for (int i = 0; i < 150; i++)
-            {
+            {  
                 token.ThrowIfCancellationRequested();
                 Thread.Sleep(1);
                 sum += i;
