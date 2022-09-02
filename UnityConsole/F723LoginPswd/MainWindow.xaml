@@ -1,0 +1,19 @@
+﻿<Window x:Class="F723LoginPswd.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:F723LoginPswd"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="txtLog" HorizontalAlignment="Left" Height="19" Margin="117,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="191"/>
+        <TextBox x:Name="txtPass" HorizontalAlignment="Left" Height="19" Margin="360,64,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="191"/>
+        <Label Content="Login" HorizontalAlignment="Left" Margin="118,34,0,0" VerticalAlignment="Top"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="365,33,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnEnter" Content="Enter" HorizontalAlignment="Left" Margin="121,111,0,0" VerticalAlignment="Top" Height="29" Width="93" Click="Button_Authorize"/>
+        <Button x:Name="btnCancel" Content="Cancel" HorizontalAlignment="Left" Margin="360,110,0,0" VerticalAlignment="Top" Height="29" Width="93" Click="Button_Cancel"/>
+        <TextBox x:Name="txtRes" HorizontalAlignment="Left" Margin="113,159,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="437" Height="85"/>
+
+    </Grid>
+</Window>
