@@ -59,6 +59,7 @@ class Program
         //F705Exceptions.test();
 
         //F721CancellationToken.test();
-        F722LinkedToken.test();
+        //F722LinkedToken.test();
+        F731TaskContinuations.test();
     }
 }
