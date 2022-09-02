@@ -60,6 +60,7 @@ class Program
 
         //F721CancellationToken.test();
         //F722LinkedToken.test();
-        F731TaskContinuations.test();
+        //F731TaskContinuations.test();
+        F732TaskContinuations.test();
     }
 }
