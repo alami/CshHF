@@ -1,0 +1,15 @@
+﻿<Window x:Class="F742Deadlock.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:F742Deadlock"
+        mc:Ignorable="d"
+        Title="ch7-42 Deadlock" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="txtResult" HorizontalAlignment="Left" Margin="216,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="224" Height="133"/>
+        <Button x:Name="BtnDownload" Content="Download" HorizontalAlignment="Left" Margin="262,227,0,0" VerticalAlignment="Top" Click="BtnDownload_Click"/>
+        <ProgressBar HorizontalAlignment="Center" Height="41" Margin="0,387,0,0" VerticalAlignment="Top" Width="786"/>
+
+    </Grid>
+</Window>

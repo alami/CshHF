@@ -62,6 +62,7 @@ class Program
         //F722LinkedToken.test();
         //F731TaskContinuations.test();
         //F732TaskContinuations.test();
-        F733TaskContinuationFlags.test();
+        //F733TaskContinuationFlags.test();
+        F741Deadlocks.test();
     }
 }

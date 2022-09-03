@@ -41,7 +41,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "F609AsyncWaitAll", "F609Asy
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F705Exceptions", "F705Exceptions\F705Exceptions.csproj", "{323F37CE-F66A-45A4-B145-1791F8C2AD1B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F723LoginPswd", "F723LoginPswd\F723LoginPswd.csproj", "{638C2547-E8A0-41D4-A02F-094852D0B526}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "F723LoginPswd", "F723LoginPswd\F723LoginPswd.csproj", "{638C2547-E8A0-41D4-A02F-094852D0B526}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F742Deadlock", "F742Deadlock\F742Deadlock.csproj", "{445406E5-4626-42BA-B0FA-4F0A02D6F859}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +131,10 @@ Global
 		{638C2547-E8A0-41D4-A02F-094852D0B526}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{638C2547-E8A0-41D4-A02F-094852D0B526}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{638C2547-E8A0-41D4-A02F-094852D0B526}.Release|Any CPU.Build.0 = Release|Any CPU
+		{445406E5-4626-42BA-B0FA-4F0A02D6F859}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{445406E5-4626-42BA-B0FA-4F0A02D6F859}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{445406E5-4626-42BA-B0FA-4F0A02D6F859}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{445406E5-4626-42BA-B0FA-4F0A02D6F859}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
