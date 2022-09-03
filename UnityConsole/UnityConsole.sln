@@ -45,6 +45,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "F723LoginPswd", "F723LoginP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F742Deadlock", "F742Deadlock\F742Deadlock.csproj", "{445406E5-4626-42BA-B0FA-4F0A02D6F859}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F751Report", "F751Report\F751Report.csproj", "{C2E388BF-FA87-44C0-8254-8DC1A742275B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,10 @@ Global
 		{445406E5-4626-42BA-B0FA-4F0A02D6F859}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{445406E5-4626-42BA-B0FA-4F0A02D6F859}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{445406E5-4626-42BA-B0FA-4F0A02D6F859}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2E388BF-FA87-44C0-8254-8DC1A742275B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2E388BF-FA87-44C0-8254-8DC1A742275B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2E388BF-FA87-44C0-8254-8DC1A742275B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2E388BF-FA87-44C0-8254-8DC1A742275B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
