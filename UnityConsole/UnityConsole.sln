@@ -43,9 +43,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F705Exceptions", "F705Excep
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "F723LoginPswd", "F723LoginPswd\F723LoginPswd.csproj", "{638C2547-E8A0-41D4-A02F-094852D0B526}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F742Deadlock", "F742Deadlock\F742Deadlock.csproj", "{445406E5-4626-42BA-B0FA-4F0A02D6F859}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "F742Deadlock", "F742Deadlock\F742Deadlock.csproj", "{445406E5-4626-42BA-B0FA-4F0A02D6F859}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F751Report", "F751Report\F751Report.csproj", "{C2E388BF-FA87-44C0-8254-8DC1A742275B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "F751Report", "F751Report\F751Report.csproj", "{C2E388BF-FA87-44C0-8254-8DC1A742275B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F805BlockingCollection", "F805BlockingCollection\F805BlockingCollection.csproj", "{3896E151-98CB-4827-A39B-80CDFA3C636A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +143,10 @@ Global
 		{C2E388BF-FA87-44C0-8254-8DC1A742275B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2E388BF-FA87-44C0-8254-8DC1A742275B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2E388BF-FA87-44C0-8254-8DC1A742275B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3896E151-98CB-4827-A39B-80CDFA3C636A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3896E151-98CB-4827-A39B-80CDFA3C636A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3896E151-98CB-4827-A39B-80CDFA3C636A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3896E151-98CB-4827-A39B-80CDFA3C636A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
