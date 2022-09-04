@@ -22,7 +22,7 @@ namespace ConsoleApp
 
             bool successPeek = queue.TryPeek(out int peekRes);
             bool successDequeue = queue.TryDequeue(out int dequeueRes);
-            Console.WriteLine(successPeek ? $"TryPeek получил элемент {peekRes}":"Нет рез-та");
+             Console.WriteLine(successPeek ? $"TryPeek получил элемент {peekRes}":"Нет рез-та");
             Console.WriteLine(successDequeue ? $"TryDequeue получил элемент {dequeueRes}":"Нет рез-та");
             Enumerate(queue);
 
