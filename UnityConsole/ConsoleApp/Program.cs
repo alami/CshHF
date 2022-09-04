@@ -66,6 +66,7 @@ class Program
         //F741Deadlocks.test();
 
         //F801Concurrent.test();
-        F802ConcurrentStack.test();
+        //F802ConcurrentStack.test();
+        F803ConcurrentBag.test();
     }
 }
