@@ -63,6 +63,8 @@ class Program
         //F731TaskContinuations.test();
         //F732TaskContinuations.test();
         //F733TaskContinuationFlags.test();
-        F741Deadlocks.test();
+        //F741Deadlocks.test();
+
+        F801Concurrent.test();
     }
 }
