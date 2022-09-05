@@ -49,6 +49,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "F751Report", "F751Report\F7
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F805BlockingCollection", "F805BlockingCollection\F805BlockingCollection.csproj", "{3896E151-98CB-4827-A39B-80CDFA3C636A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F806BlockingCollection", "F806BlockingCollection\F806BlockingCollection.csproj", "{9815FDDC-1682-46D4-830A-C1F6D445592B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +149,10 @@ Global
 		{3896E151-98CB-4827-A39B-80CDFA3C636A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3896E151-98CB-4827-A39B-80CDFA3C636A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3896E151-98CB-4827-A39B-80CDFA3C636A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9815FDDC-1682-46D4-830A-C1F6D445592B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9815FDDC-1682-46D4-830A-C1F6D445592B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9815FDDC-1682-46D4-830A-C1F6D445592B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9815FDDC-1682-46D4-830A-C1F6D445592B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
