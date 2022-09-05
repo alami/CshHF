@@ -68,7 +68,8 @@ class Program
         //F801Concurrent.test();
         //F802ConcurrentStack.test();
         //F803ConcurrentBag.test();
-        F804IProducerConsumerCollection.test();
+        //F804IProducerConsumerCollection.test();
+        F807GetConsumingEnumerable.test();
 
     }
 }
